@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:text="@string/faq"
+    android:textStyle="bold"
+    android:layout_marginTop="10dp"
+    android:textSize="24sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="1. Guess can't be empty:-"
+    android:textStyle="bold"
+    android:layout_marginTop="16dp"
+    android:textSize="22sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="@string/guess"
+    android:textStyle="normal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"/>
+    
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="2. What is live?:-"
+    android:textStyle="bold"
+    android:layout_marginTop="16dp"
+    android:textSize="22sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="@string/lives"
+    android:textStyle="normal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="3. You have guessed larger/smaller:-"
+    android:textStyle="bold"
+    android:layout_marginTop="16dp"
+    android:textSize="22sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="@string/sl"
+    android:textStyle="normal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="4. What is round:-"
+    android:textStyle="bold"
+    android:layout_marginTop="16dp"
+    android:textSize="22sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="@string/round"
+    android:textStyle="normal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="5. Input is not an Integer:-"
+    android:textStyle="bold"
+    android:layout_marginTop="16dp"
+    android:textSize="22sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="@string/inte"
+    android:textStyle="normal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"/>
+    
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:text="6. Still have problems? click below to contact us."
+    android:textStyle="bold"
+    android:layout_marginTop="16dp"
+    android:textSize="22sp"/>
+    
+    <Button
+   android:id="@+id/btn" android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    
+    android:text="CONTACT US"
+    android:textStyle="bold"
+    android:background="@null"
+    android:layout_marginTop="10dp"
+    android:textSize="22sp"/>
+        
+    
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"    android:layout_height="match_parent"  
+       android:layout_marginTop="90dp">
+    
+ <TextView
+ android:id="@+id/round"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentLeft="true"
+ android:text="Round: 0"
+ android:textSize="24sp"
+ 
+ android:textStyle="bold"/>
+ 
+ 
+          <TextView
+ android:id="@+id/live"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_toLeftOf="@+id/i1"
+ android:text="Live: "
+ 
+ android:textSize="24sp"
+ android:textStyle="bold"/>
+ 
+ 
+ <ImageView
+ android:id="@+id/i1"
+ android:layout_width="30dp"
+ android:layout_height="30dp"
+ android:layout_toLeftOf="@+id/i2"
+ android:src="@drawable/dia"/>
+ 
+ <ImageView
+ android:id="@+id/i2"
+ android:layout_width="30dp"
+ android:layout_height="30dp"
+ android:layout_toLeftOf="@+id/i3"
+ android:src="@drawable/dia"/>
+ 
+ <ImageView
+ android:id="@+id/i3"
+ android:layout_width="30dp"
+ android:layout_height="30dp"
+ android:layout_alignParentRight="true"
+ android:src="@drawable/dia"/>
+ 
+ <EditText
+ android:id="@+id/et"
+ android:layout_width="200dp"
+ android:layout_height="wrap_content"
+ 
+android:layout_below="@+id/round"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="24dp"
+android:hint="Enter your guess"
+android:inputType="text"/>
+
+
+  <Button
+ android:id="@+id/btn"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_below="@+id/et"
+android:layout_marginTop="24dp"
+android:textStyle="bold"
+ android:text="SUBMIT"/>
+ 
+ <Button
+ android:id="@+id/btn_help"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_below="@+id/btn"
+ android:text="Do you need help? GO HERE"
+ android:textStyle="italic"
+ android:background="@null"
+ android:textColor="#ffffffff"
+ android:textSize="14sp"/>
+ 
+
+</RelativeLayout>

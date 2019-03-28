@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Guess Game</string>
+    <string name="title_activity_main">MAIN_ACTIVITY</string>
+    <string
+name="faq">Common Problems</string>
+    <string
+name="guess">This is a very stupid problem. If you guess blank, how can I check whether you guessed correct number or not? So, you know the 
+solution.</string>
+
+    <string
+name="lives">Well, lives are the chances to guess my secret number. There are 3 diamonds in lives area which represents 3 chances. When you finish all three diamonds, you can see Live: 0 in live area which means no more live left so that you have last chance to guess the number. If you can not do so, you can see Failed in live area.</string>
+
+    <string
+name="sl">As text implies, If the number you guessed is larger than the secret number, app says \"you have guessed larger\" and similar for smaller number so that you can guess easily.</string>
+
+    <string
+name="round">The round is count of your success. If you guess correct number, round will be incremented by +1 on every successful guess you make. Initial round is 1.</string>
+
+    <string
+name="inte">This app generates a random number between 1-20 including 1 and 20 so that you have to guess a number i.e integer. If you guess alphabets or any symbols, this error will be thrown.</string>
+
+
+
+</resources>
